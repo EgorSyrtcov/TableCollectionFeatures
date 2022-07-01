@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E271DFB82863003800210E98 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271DFB72863003800210E98 /* Model.swift */; };
 		E2EFE1E0285B3BED001EB57B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFE1DF285B3BED001EB57B /* AppDelegate.swift */; };
 		E2EFE1E2285B3BED001EB57B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFE1E1285B3BED001EB57B /* SceneDelegate.swift */; };
 		E2EFE1E4285B3BED001EB57B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFE1E3285B3BED001EB57B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E271DFB72863003800210E98 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E2EFE1DC285B3BED001EB57B /* TableCollectionFeatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableCollectionFeatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EFE1DF285B3BED001EB57B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2EFE1E1285B3BED001EB57B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E271DFB62863001A00210E98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E271DFB72863003800210E98 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E2EFE1D3285B3BED001EB57B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		E2EFE1DE285B3BED001EB57B /* TableCollectionFeatures */ = {
 			isa = PBXGroup;
 			children = (
+				E271DFB62863001A00210E98 /* Models */,
 				E2EFE1DF285B3BED001EB57B /* AppDelegate.swift */,
 				E2EFE1E1285B3BED001EB57B /* SceneDelegate.swift */,
 				E2EFE1F6285B5476001EB57B /* Main */,
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E271DFB82863003800210E98 /* Model.swift in Sources */,
 				E2EFE1E4285B3BED001EB57B /* ViewController.swift in Sources */,
 				E2EFE1E0285B3BED001EB57B /* AppDelegate.swift in Sources */,
 				E2EFE1E2285B3BED001EB57B /* SceneDelegate.swift in Sources */,
@@ -297,7 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FFYJJ79MSE;
+				DEVELOPMENT_TEAM = L34GFT5E8L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableCollectionFeatures/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,7 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FFYJJ79MSE;
+				DEVELOPMENT_TEAM = L34GFT5E8L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableCollectionFeatures/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
